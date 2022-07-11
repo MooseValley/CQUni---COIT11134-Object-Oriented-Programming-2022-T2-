@@ -1,0 +1,34 @@
+******************************************************
+COIT11134 Object Oriented Programming (2022-T2)
+Week: 07
+Course WEB Page (Moodle):         https://moodle.cqu.edu.au/course/view.php?id=37696
+Course Coordinator:               Salahuddin Azad, Melbourne Campus, Email: s.azad@cqu.edu.au, Phone: +61-03-9616-0680
+Rocky Teacher (Part-Time):        Mike O'Malley, m.omalley@cqu.edu.au
+Mike O's GitHub for course/term:  https://github.com/MooseValley/uni-COIT11134-Object-Oriented-Programming-2022-T2
+Mike O'Malley's Java Videos (incl JavaFX, etc):            http://tinyurl.com/MikesJavaVideos
+Mike O'Malley's JavaFX + Netbeans + Scene Builder Videos:  http://tinyurl.com/MikesJavaFXVideos
+******************************************************
+
+ROAD MAP:
+Week 1 - Revision of Java, Classes, Objects.
+Week 2 - Inheritance
+Week 3 - Polymorphism
+Week 4 - GUI and Event Handling Part A
+Week 5 - GUI and Event Handling Part B.  Next week: mid-term break
+Week 6 - Introduction to Git and Version Control
+Week 7 - Java Exception Handling, and Revisit Files IO    <--- YOU ARE HERE !
+Week 8 - Interfaces and Inner Classes
+Week 9 - Generic Methods
+Week 10 - Generic Classes
+Week 11 - Linked Lists, Files and Algorithms
+Week 12 - Stacks, Queues and Trees
+
+
+
+LAST WEEK: Week 06
+* Week 6 - Introduction to Git and Version Control
+
+THIS WEEK: Week 07
+* Week 7 - Java Exception Handling, and Revisit Files IO    <--- YOU ARE HERE !
+
+EOF.
