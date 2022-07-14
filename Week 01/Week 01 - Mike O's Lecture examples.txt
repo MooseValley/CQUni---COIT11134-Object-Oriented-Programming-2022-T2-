@@ -28,4 +28,82 @@ Week 12 - Stacks, Queues and Trees
 THIS WEEK: Week 01
 * Week 1 - Revision of Java, Classes, Objects.    <--- YOU ARE HERE !
 
+
+
+**********************************
+Tutorial Question 1:
+**********************************
+
+Mike O's NOTES: 
+Calling instance methods from a Constructor is NOT good programming practice.
+If length is valid and width is invalid, we will end up with a Rectangle object that is invalid / incomplete.
+
+   public Rectangle( double theLength, double theWidth )
+   {
+      setLength( theLength );
+      setWidth( theWidth );
+   } // end Rectangle two-argument constructor
+
+The reason why the tutorial question does it is to save repeating the same validations in multiple places.
+For now, for this course, doing this is OK ... but keep in mind that there are better ways.
+e.g. call STATIC methods to validate the data values / ranges / rules before updating the instance data.
+
+
+**********************************
+
+   // validate and set length
+    /*
+     Mike O's NOTES: 
+     Displaying error messages to the Console screen or in a Swing Dialog is NOT good enough for a real app !
+     What if this class is being used in a Web App or a GUI App ???  The console screen wont be seen, so the user will never know there was an error.
+     What if our program is processing / validating millions of rectangles over night ?  If we display a Swing dialog, then the whole processing job
+     could be held up waiting for a user to click the "OK" button on an error dialog.
+     You have to display error messages in a way that is appropriate for the application type.
+     We will return and discuss this more later in this course.
+    */
+   public void setLength( double theLength )
+   {
+       if ((theLength > 0.0) && (theLength < 20.0) )
+       {
+           length = theLength;
+       }
+       else
+       {
+           System.out.println ("ERROR: invalid length, it muist be > 0 and < 20");
+       }
+   } // end method setLength
+
+
+**********************************
+
+      /*
+      Mike O's NOTES:
+      The code below is BAD.
+      It should keep asking the user for each input until the user enters a valid value, and only then
+      move onto the next input.
+      The user should not be allowed to move into the next input (width) until they have entered
+      a valid length.
+      If any errors are encountered, meaningful error messages should be displayed.
+      Also, the code below only enforces part of the validation - it does not check < 20.
+      So, lots of issues.  Not good code.
+      We will return and discuss this more later in this course.
+      */
+
+      //Changing length and width of the new rectangle
+      System.out.println("Enter Length of the new rectangle :" );
+      double tempLength = input.nextDouble();
+      
+        if (tempLength > 0)
+          rectangle.setLength(tempLength);
+      
+      System.out.println("Enter Width of the new rectangle :" );
+      double tempWidth = input.nextDouble();
+      if (tempWidth > 0)
+          rectangle.setWidth(tempWidth);
+      //Printing the details of the new rectangle       
+      System.out.println ( rectangle.toString() );
+
+
+
+
 EOF.
