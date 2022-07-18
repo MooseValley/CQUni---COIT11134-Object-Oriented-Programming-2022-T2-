@@ -31,4 +31,49 @@ LAST WEEK: Week 01
 THIS WEEK: Week 02
 * Week 2 - Inheritance    <--- YOU ARE HERE !
 
+
+
+Type Casting:
+
+int k = 5;
+double d = k;
+
+double d2 = 5.0;
+int k2 = d2; //WARNING: possible loss of precision
+
+int k2 = (int) d2; // OK
+
+
+        for (Building b : buildings)
+        {
+            if (b != null)
+            {
+                if (b instanceof House)
+                {
+                    countHouses++;
+                    totalBedroomsHouses += ((House) b).getNumBedrooms (); // Tyecast to keep java happy.
+                }
+            }
+        }
+
+
+
+****************************************
+*** HomeWork Suggestions:
+****************************************
+
+Convert Tute Question 1 over to an ArrayList
+
+Convert Tute Question 2 over to an Array
+
+Tute Q 2: 
+* Work out the average Salary for all Lecturers
+
+Get practice with instanceof, type casting. eg. ((House) b)....., etc
+
+Ensure you are happy with Arrays, ArrayLists, and what we have done on inheritance so far.
+
+
+
+
 EOF.
