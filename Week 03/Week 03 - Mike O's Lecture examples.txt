@@ -28,7 +28,208 @@ Week 12 - Stacks, Queues and Trees
 LAST WEEK: Week 02
 * Week 2 - Inheritance
 
+Tute / Workshop Questions
+
+	Building
+	* House
+
+	Vehicles 
+	* Car
+	* Truck
+
+	Person
+	* Student
+		- Post Grad Student
+		- Distance Student
+	* Lecturer
+		Junior
+		Casual
+		Senior
+
+Store object in an array and arraylist
+
+
 THIS WEEK: Week 03
 * Week 3 - Polymorphism    <--- YOU ARE HERE !
+
+
+many forms
+
+Data
+* polymorphic - as we saw last week
+
+Methods
+* named blocks of code that call whenever you need them
+* pass in any parameters / data values they need to do their their job
+* get back results
+* Overloading
+
+
+ArrayList: add
+	myArrayList.add (new Vehicle () );
+	
+GUI add - add a label to the UI
+	myPanel.add (myLabel);
+
+Menus add to add menuuitems to menus
+	myMenu.add (fileMenuItem);
+	
+many methods called add
+which one gets called depends on cotext and parameters
+
+
+
+The OLD Days - pre-1980, C++
+
+	myArrayList.addToArrayList (new Vehicle () );
+	myPanel.addToPanel (myLabel);
+	myMenu.addMenuItems (fileMenuItem);
+
+
+
+*********************
+Classes:
+*********************
+* Concrete class: 
+	public class ....
+	you can create / declare objects.  e.g. Building and House from last week - week 2
+		Building b01 = new .... // OK
+	have no abstract methods
+	You know all of the information to implement all of the methods
+	
+* Abstract class: 
+	public abstract class ....
+	you cannot declare / create objects.  eg. Employee class (Week 3)
+		Employee e01 = new ..... // ERROR
+	Have at least 1 abstract method
+	You don't have all of the information to implement all of the methods
+	Templates with place holders - enforce a design / standard on all subclasses
+	
+
+
+
+*********************
+
+1.	What are abstract methods? Describe the circumstances in which an abstract method would be appropriate.
+
+any method method that is declare abstract
+
+	public abstract double earnings();
+
+
+Constructors, .... cannot be abstract
+
+if your class contains one or more abstract methods, then it must be declared abstract as well
+	
+	public abstract class ...
+	
+	
+Appropriate when:
+* We did NOT have the data to calculate earnings (or something).
+* When we want to enforece a design / template in out class hierarchy.
+
+
+GameEntity
+	getHitPoints()
+	getDamageDone()
+	inflictDamage()
+
+	Monster
+	Player
+	NPC
+	
+
+2.	Distinguish between an abstract class and a concrete class.
+
+Concrete class 				Abstract class
+----------------------------------	--------------------------------------------
+Can creat objects			Cannot create objects
+Has NO abstract methods			has at least one abstract method
+declared without the abstract keyword	declared with the abstract keyword	
+	public class ...			public abstract class ...
+:::
+
+
+
+What is the output of this code ?
+
+textFields
+labels
+buttons
+
+
+
+
+
+*** Homework:
+
+* add in more subclases
+	
+	PeakTimeCasualWorker
+		- Christmas / new yeat/ easter
+		get paid a ton of money to work for a short period
+
+	Manager		
+		bonus based on the company's sales
+
+* Make sure you are comfortable with Arrays and ArrayLists
+
+* Calculate and display the Average salary for all employees
+
+* Calculate and display the Total and Average salary for all SalariedEmployee objects
+instanceof
+
+
+
+
+************************************
+Assignment 1 - Validation
+************************************
+
+String nameStr =  "";
+String addressStr = "";
+::::
+
+
+// Get Valid Input #1
+
+S.o.p ("Enter name: ");
+nameStr = kb.nextLine();
+
+while (nameStr.length() == 0)
+{
+	S.o.p ("ERROR: name cannot be blank.");
+
+	S.o.p ("Enter name: ");
+	nameStr = kb.nextLine();
+}
+
+   
+
+// Get Valid Input #2
+
+S.o.p ("Enter address: ");
+addressStr = kb.nextLine();
+
+while (addressStr.length() == 0)
+{
+	S.o.p ("ERROR: address cannot be blank.");
+
+	S.o.p ("Enter address: ");
+	addressStr = kb.nextLine();
+}
+
+   
+::::
+
+
+// OK everything is valid, let's create an object and add them to the  arraylist
+Onwer owner = new Owner (nameStr, address, ........);
+ownerArrayList.add (owner);
+
+::::
+
+
+
 
 EOF.
