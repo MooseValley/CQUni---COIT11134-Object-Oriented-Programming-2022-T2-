@@ -31,4 +31,17 @@ LAST WEEK: Week 03
 THIS WEEK: Week 04
 * Week 4 - GUI and Event Handling Part A    <--- YOU ARE HERE !
 
+
+TextField
+    nameTextField
+    txtName
+    nameTf
+
+String nameStr;
+String strName;
+
+Be consistent within your own code / projects.
+
+
+
 EOF.
