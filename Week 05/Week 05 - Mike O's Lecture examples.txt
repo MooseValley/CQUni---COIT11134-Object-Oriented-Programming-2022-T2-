@@ -31,4 +31,12 @@ LAST WEEK: Week 04
 THIS WEEK: Week 05
 * Week 5 - GUI and Event Handling Part B.  Next week: mid-term break    <--- YOU ARE HERE !
 
+
+"mid-term break"
+* catch up on things
+* get ahead
+* get Ass 1 at least 95% completed
+
+
+
 EOF.
