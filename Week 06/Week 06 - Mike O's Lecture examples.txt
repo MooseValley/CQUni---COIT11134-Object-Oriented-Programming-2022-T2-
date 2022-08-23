@@ -31,4 +31,91 @@ LAST WEEK: Week 05
 THIS WEEK: Week 06
 * Week 6 - Introduction to Git and Version Control    <--- YOU ARE HERE !
 
+
+
+*******************************************
+Console Apps = BATCH Processing
+*******************************************
+
+If an input is invalid, display an error and ask for the input again.
+Don't let the user go to the next input or do anything else.
+They must enter valid values - in sequence - for each input.
+If the user wants to enter an employee they are forced down that road - 
+prompt them to enter a name until they enter something valid, enter address until valid, etc - 
+until a valid employee is entered.
+
+
+*******************************************
+GUI Apps / Event Drive programs
+*******************************************
+If an input is invalid, display an error and suggest they try again - and abort all subsequent processing.
+User can do anything they like - enter another input, click a button, etc.
+They are NOT forced down a road.
+
+
+
+*******************************************
+File I/O
+*******************************************
+
+Many ways to read and write files in Java
+Find 1 way you like and stick to that.
+
+Read a file:
+    ***Scanner
+    Buffered Reader
+    InputStreams
+
+Write a file
+    Buffered Writer
+    ***Formatter
+    OutputStreams
+
+
+
+
+Write / Save employeesArrayList to file
+    open a file for output
+    for each employee in arrayList
+        output their details to file
+    close the file
+
+Read / Load employeesArrayList from file
+    open a file for input
+    while more data in file
+        read details in 1 employee 
+        add them to the arrayList
+    close the file
+
+
+CSV (what if data contains commas ???)
+    Mike,20000,2021,08,13,......
+TSV
+    Mike<tab>20000<tab>2021<tab>08<tab>13<tab>.....
+One field per line:     (easiest for us at this stage)
+    Mike
+    20000
+    2021
+    :::::
+
+
+
+
+onwerIdSearchRadioButton
+abnSearchRadioButton
+
+if (onwerIdSearchRadioButton.isSelected() == true)
+    ::: search on owner
+    get the ownerId from the textfield
+    loop and search on that
+
+else if (abnSearchRadioButton.isSelected() == true)
+    ::: search on ABN
+    get the ABN from the textfield
+    loop and search on that
+
+
+hasFocus()
+setFocus()
+
 EOF.
