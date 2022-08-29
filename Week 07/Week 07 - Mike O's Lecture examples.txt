@@ -31,4 +31,129 @@ LAST WEEK: Week 06
 THIS WEEK: Week 07
 * Week 7 - Java Exception Handling, and Revisit Files IO    <--- YOU ARE HERE !
 
+
+
+**********************
+File I/O:
+**********************
+
+Many ways to READ files
+	Scanner
+	BufferedReader
+	InputStreams
+	:::
+
+Many ways to WRITE files
+	Formatter
+	BufferedeWriter
+	OutputStreams
+	:::
+
+
+Pseudo Code
+WRITE
+   try
+	Open a file for output
+	while more data to write (looping through an ArrayList, etc)
+		write data
+	Close File
+   catch (exception(s) ...)
+
+
+READ
+   try
+	Open a File for input (auto create)
+	while file has more data
+		read data
+		create objects (Epmployee, ....)
+		add to an array list ??
+	Close file
+   catch (exception(s) ...)
+
+
+Pros and Cons
+
+Plain Text ****
+Binary
+
+
+Typed Files
+	File of Employee
+	File of ArrayList<Employee>
+
+Random Access Files
+
+
+
+How do you format the file's data ???
+
+CSV
+	surname, address, age, customer notes, ....
+
+TSV
+
+
+
+String[] fields = scanner.nextLine().split(",");
+
+
+Recommendation for now:
+	one field per line
+
+name
+address
+age
+
+::::
+name
+address
+age
+
+::::
+
+
+
+**********************
+Exception Handling:
+**********************
+
+try
+catch
+finally
+throws
+
+
+UnChecked Exceptions
+	write whatever Java code you like, don't need to handle Exceptions (no try catch)
+	division by zero
+	array out of bound
+
+Checked Exceptions
+	Java is so worried about you using these Java commands that it will NOT let you them unless
+	you use Exception Handling (try, catch, ...)
+	Your code will NOT compile unless you handle the exceptions
+	File I/O
+	Network I/O
+	Database I/O
+	:::
+
+
+
+**********************
+JOptionPane
+**********************
+	Message Dialogs
+	Confirmation Dialogs - OK, Cancel, Yes/No
+	Input Dialog
+
+JOptionPane.showMessageDialog (null, "message here");
+
+String inputStr = JOptionPane.showInputDialog (null, "Enter Name:");
+
+int result = JOptionPane.showConfirmationDialog (null, "Exit ?  Are your sure", JOptionPane.OK_CANCEL_OPTION);
+
+if (result == JOptionPane.OK_OPTION)
+
+
 EOF.
+
