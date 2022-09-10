@@ -31,4 +31,10 @@ LAST WEEK: Week 08
 THIS WEEK: Week 09
 * Week 9 - Generic Methods    <--- YOU ARE HERE !
 
+
+Week 12 Public Holiday - Monday 3 October (Week 12) is a public holiday
+
+
+
+
 EOF.

@@ -31,4 +31,64 @@ LAST WEEK: Week 07
 THIS WEEK: Week 08
 * Week 8 - Interfaces and Inner Classes    <--- YOU ARE HERE !
 
+
+Classes:
+public class: basic Java class
+Abstract class: template, forcing design on the children.  e.g. they have to implement calculatePay() or whatever.
+inner class: class inside a class, inner class can access / use outer classes fields, etc.
+Interface Class: template, forcing design on the children, ...
+Concrete class:
+
+Abstract   VS                       Interface
+extends                             implements
+Max 1                               O, 1, 2, ....
+can implement an interface          can an interface implement an interface ?
+can it extend another class ?       can it extend another class ?
+                                    can it extend an abstract class
+RULE: Do NOT Abuse the inheritance hierarchy
+eg. public class Employee extends BuildingApplication
+
+Only true children or grandchildren should be in the hierarchy
+eg. Person -> Employee -> Manager
+
+
+
+**************************************
+Model View Controller (MVC)
+**************************************
+Kitcken Sink
+    Old days: GUI class - have data structures for Employees, Courses, etc - everything including the kitchen sink.
+    very difficult to test
+    almost impossible to re-use without extracting code, copy paste.
+    dumped into one file (or a few files) without regard to modern good design principles
+    Difficult to understand
+
+Object Oriented Design (OOD)
+    class for each Object type: Employee class, Course class, etc - all of the data and 
+    the methods to work on each type data was contained inside the class.
+    GUI which contained the logic, views, etc for dealing with these classes
+
+MVC
+    Employee class - data class with setters, getters, contructors, toString, compareTo
+    Employee View(s) - GUI screens, display all employee view, search employee view, edit employee view, delete employee view, ...
+    Employee Controller(s) - brains, logic, storage (ArrayLists), file I/O, database i/o, getArrayList() ?? ....
+    Course class
+    Course view(s)
+    Course Controller(s) 
+    Very easy to unit and system test
+    Very easy to re-use
+    Easy to understand *** much easier than Kitcken Sink and OOD (once you get your head around MVC)
+
+
+Mike O'Malley's JavaFX + Netbeans Videos: 
+http://tinyurl.com/MikesJavaFXVideos
+
+shows you how to build a MVC project from scratch:
+* add / display students
+* add / display courses
+* add / display student enrolments
+* file I/o
+* etc
+
+
 EOF.
