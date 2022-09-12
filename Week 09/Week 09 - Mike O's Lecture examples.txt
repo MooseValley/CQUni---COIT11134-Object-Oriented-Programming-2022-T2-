@@ -35,6 +35,38 @@ THIS WEEK: Week 09
 Week 12 Public Holiday - Monday 3 October (Week 12) is a public holiday
 
 
+----------------------------------------------------
+*** Wrapper Classes: Auto-Boxing, Auto-Unboxing, etc
+----------------------------------------------------
+
+Lots of data structure / storage classes build into Java - ArrayList, LinkedList, Stack, Queue, Tree, etc
+can only store Reference types: String, Date, and any data classes you create: Employee, Person, Product, ..
+You CANNOT store primitive types: int, double, long, char, boolean, .......
+because these structures only work for Reference Types.
+
+Wrapper Classes are Reference Type version of Primitive Types
+int     -> Integer
+double  -> Double
+boolean -> Boolean
+char    -> Character
+::::
+
+We have used them:
+    Integer.parseInt (....);
+    Double.parseDouble (...);
+but we haven't discussed them at all in any depth.
+
+Auto-Boxing, Auto-Unboxing
+
+int k = 9;
+Integer m = k;  // OK
+Integer m = k + 9 * 20;  // OK
+
+You don't have to typecast:
+Integer m = (Integer) k;  // OK
+
+k = m + 30; // OK - no need to typecast.
+
 
 
 EOF.
