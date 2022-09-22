@@ -31,4 +31,14 @@ LAST WEEK: Week 09
 THIS WEEK: Week 10
 * Week 10 - Generic Classes    <--- YOU ARE HERE !
 
+Utility.java
+StringUtils.java
+DateUtils.java
+
+
+
+jack.small@cqumail.com; brodie.lucht@cqumail.com; nayan.neupane@cqumail.com
+Week 10 Tutorial - Q2
+
+
 EOF.
