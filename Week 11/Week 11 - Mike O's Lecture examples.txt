@@ -31,4 +31,31 @@ LAST WEEK: Week 10
 THIS WEEK: Week 11
 * Week 11 - Linked Lists, Files and Algorithms    <--- YOU ARE HERE !
 
+
+
+No lectures or tutorial classes during Week 11+12, students can work on their final projects:
+
+____________________________________
+From: Salahuddin Azad <s.azad@cqu.edu.au>
+Sent: Monday, 26 September 2022 9:00 AM
+To: Steven Gordon <s.d.gordon@cqu.edu.au>; Farzad Sanati <f.sanati@cqu.edu.au>; Michael O'Malley <m.omalley@cqu.edu.au>; Bernard Li <b.li@cqu.edu.au>; Ahmedi Azra <a.azra@cqu.edu.au>; Mohamed Anver <m.anver@cqu.edu.au>
+Subject: COIT11134 Week 11 and Week 12 tutorial and lab tasks
+ 
+Hi Colleagues,
+
+I am not delivering lectures on the scheduled topics in Week 11 and Week 12. I will discuss the final project in the lectures instead.
+
+Students don't need to complete the usual tutorial and lab tasks in these two weeks. Please help students with their final project in these sessions.  
+
+Regards,
+Salahuddin
+
+
+
+---------------------------------------------------------------
+Week 11 = TOTAL NO SHOW.
+No-one came to class.
+(3 enrolled: only 1 student attended regularly anyway.  1 has not been to a single class.  1 has attended approx half the classes).
+
+
 EOF.
