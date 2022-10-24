@@ -1,0 +1,67 @@
+******************************************************
+COIT11134 Object Oriented Programming (2022-T2)
+Week: 12
+Course WEB Page (Moodle):         https://moodle.cqu.edu.au/course/view.php?id=37696
+Course Coordinator:               Salahuddin Azad, Melbourne Campus, Email: s.azad@cqu.edu.au, Phone: +61-03-9616-0680
+Rocky Teacher (Part-Time):        Mike O'Malley, m.omalley@cqu.edu.au
+Mike O's GitHub for course/term:  https://github.com/MooseValley/uni-COIT11134-Object-Oriented-Programming-2022-T2
+Mike O'Malley's Java Videos (incl JavaFX, etc):            http://tinyurl.com/MikesJavaVideos
+Mike O'Malley's JavaFX + Netbeans + Scene Builder Videos:  http://tinyurl.com/MikesJavaFXVideos
+******************************************************
+
+ROAD MAP:
+Week 1 - Revision of Java, Classes, Objects.
+Week 2 - Inheritance
+Week 3 - Polymorphism
+Week 4 - GUI and Event Handling Part A
+Week 5 - GUI and Event Handling Part B.  Next week: mid-term break
+Week 6 - Introduction to Git and Version Control
+Week 7 - Java Exception Handling, and Revisit Files IO
+Week 8 - Interfaces and Inner Classes
+Week 9 - Generic Methods
+Week 10 - Generic Classes
+Week 11 - Linked Lists, Files and Algorithms
+Week 12 - Stacks, Queues and Trees    <--- YOU ARE HERE !
+
+
+
+LAST WEEK: Week 11
+* Week 11 - Linked Lists, Files and Algorithms
+
+THIS WEEK: Week 12
+* Week 12 - Stacks, Queues and Trees    <--- YOU ARE HERE !
+
+
+
+No lectures or tutorial classes during Week 11+12, students can work on their final projects:
+
+____________________________________
+From: Salahuddin Azad <s.azad@cqu.edu.au>
+Sent: Monday, 26 September 2022 9:00 AM
+To: Steven Gordon <s.d.gordon@cqu.edu.au>; Farzad Sanati <f.sanati@cqu.edu.au>; Michael O'Malley <m.omalley@cqu.edu.au>; Bernard Li <b.li@cqu.edu.au>; Ahmedi Azra <a.azra@cqu.edu.au>; Mohamed Anver <m.anver@cqu.edu.au>
+Subject: COIT11134 Week 11 and Week 12 tutorial and lab tasks
+ 
+Hi Colleagues,
+
+I am not delivering lectures on the scheduled topics in Week 11 and Week 12. I will discuss the final project in the lectures instead.
+
+Students don't need to complete the usual tutorial and lab tasks in these two weeks. Please help students with their final project in these sessions.  
+
+Regards,
+Salahuddin
+
+
+
+---------------------------------------------------------------
+Week 12 = TOTAL NO SHOW.
+No-one came to class.
+(3 enrolled: only 1 student attended regularly anyway.  1 has not been to a single class.  1 has attended approx half the classes).
+
+
+PUBLIC HOLIDAY today (Mon, 3-Oct-2022)
+Classes held at usual time (on public holiday).  
+Was going to discuss this and see if students wanted to move class in Week 11 - but no-one came to class.
+=> No vote => No class time move.
+Students emailed approx 1 hour prior to class to confirm class is still on.
+
+EOF.
